@@ -9,5 +9,5 @@ Since I know React already it was fairly easy to grasp.
 Although the binary-tree.ts code has a lot of functionality, the Angular visuals aspect only allow adding of nodes to the tree.
 
 <p align="center">
-  <img src="./img/example.png" alt="Binary Tree Example" width="738">
+  <img src="./img/example.PNG" alt="Binary Tree Example" width="738">
 </p>
