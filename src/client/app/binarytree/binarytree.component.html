@@ -1,0 +1,10 @@
+<input #searchBar  >
+
+<button (click)="addNode(searchBar.value);">Add a Node</button>
+
+<div >
+    <h3>Binary Tree</h3>
+    <div class="binary-container" >
+    <app-node *ngFor = "let node of nodes" [node]="node"></app-node>
+    </div>
+  </div>

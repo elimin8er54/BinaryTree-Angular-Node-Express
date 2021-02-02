@@ -1,0 +1,51 @@
+.node_circle{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border:black solid 1px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    text-align: center;
+    position:absolute;
+
+}
+
+.node_value{
+    color:black;
+}
+
+
+.crossed-right {
+    background: 
+     
+       linear-gradient(to top right,
+           rgba(0,0,0,0) 0%,
+           rgba(0,0,0,0) calc(50% - 0.8px),
+           rgba(0,0,0,1) 50%,
+           rgba(0,0,0,0) calc(50% + 0.8px),
+           rgba(0,0,0,0) 100%);
+}
+.crossed-left {
+    background: 
+       linear-gradient(to top left,
+           rgba(0,0,0,0) 0%,
+           rgba(0,0,0,0) calc(50% - 0.8px),
+           rgba(0,0,0,1) 50%,
+           rgba(0,0,0,0) calc(50% + 0.8px),
+           rgba(0,0,0,0) 100%);
+    
+}
+
+.crossed-right {
+  
+    width: 100px;
+    height: 100px;
+    position:absolute;
+}
+.crossed-left {
+  
+    width: 100px;
+    height: 100px;
+    position:absolute;
+}
